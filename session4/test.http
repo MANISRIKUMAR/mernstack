@@ -1,0 +1,12 @@
+POST http://localhost:3000/user-api/users
+Content-Type: application/json
+
+{
+  "firstName": "Mani",
+  "lastName": "Kumar",
+  "email": "mani3@gmail.com",
+  "password": "123456"
+}
+
+###
+GET http://localhost:3000/user-api/users
